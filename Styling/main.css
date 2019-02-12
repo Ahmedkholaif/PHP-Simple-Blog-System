@@ -1,0 +1,198 @@
+* {box-sizing: border-box}
+body {
+  background-color: #975513d5;
+
+}
+/* Add padding to containers */
+.container {
+  top: 120px;
+  width: 75%;
+  margin-left: 10%;
+  min-height: 500px;
+  background-color: rgb(235, 162, 90);
+  /* color:rgb(255, 253, 253);  */
+  padding: 20px;
+  border: 1px dashed #000;
+  border-radius: 20px;
+}
+.right {
+  float: right;
+}
+.article {
+  margin:20px 0 ;
+  border:2px solid #444;
+  border-radius: 20px;
+  background-color: snow;
+  color: #000;
+  padding: 10px;
+}
+nav {
+  background-color: #F98410;
+  overflow: hidden;
+  width:100%;
+}
+footer {
+  position: fixed;
+  bottom:0%;
+
+  background-color: rgb(32, 32, 209);
+  color: #fff;
+  width: 100%;
+  height: 5%;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+.add input ,.edit input {
+  background-color: papayawhip;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-left: 5%;
+} 
+hr {
+  size: 5px solid #000;
+  background-color: blue;
+}
+
+h1 {
+  color:rgb(22, 11, 11);
+  margin-left: auto;
+  display: inline;
+  
+}
+h3 {
+  background-color: #F98410;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center
+}
+h5 {
+  border-radius: 10px;
+
+  background-color: #007bff;
+  color: #fff;
+  text-align: center
+}
+table {
+  margin-left: 20%;
+}
+table thead {
+  background-color: #222;
+  color: #fff;
+}
+table tbody {
+  background: #fff;
+  color: #222;
+}
+table td {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
+#add {
+  float: right;
+  background-color: #fff;
+  color: #222;
+  width: 100px;
+  height: 50px;
+  border:2px solid #222;
+  border-radius: 10px;
+}
+button {
+  background-color: blueviolet;
+  color:#fff;
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+}
+ 
+label {
+  font-size: 30px;
+  color: #000;
+}
+a ,input[type=submit]{
+  margin: 5px 5px;
+  padding:5px;
+  text-decoration: none;
+  width: 70px;
+  /* height: 20px; */
+  color:#fff;
+  background-color: rgb(11, 97, 168);
+  border-radius: 5px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] ,textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus,textarea:focus {
+  background-color: #ddd;
+  outline: none;
+  
+}
+.area {
+  
+  border-radius: 10px;
+  padding:10px;
+}
+input[type=checkbox], input[type=radio] {
+  background-color: #ddd;
+  color: #e5f5f2;
+  outline: #222 ;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-left: 15px;
+  display: inline-block;
+  display: -webkit-inline-flex;
+}
+input[type=checkbox]:focus, input[type=radio]:focus {
+  background-color: #ddd;
+  outline: none;
+}  
+
+/* Overwrite default styles of hr */
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+  background-color: rgb(226, 240, 28);
+  cursor:pointer;
+  color: #000;
+}
+
+/* Add a blue text color to links */
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  /* background-color: #f1f1f1; */
+  text-align: center;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  background-color: rgb(71, 138, 224);
+  border-radius: 20px;
+}
+.signin input {
+  text-align: center;
+}
+
+.input-group{width:auto}.btn-primary{color:#fff;background-color:#007bff;border-color:#007bff}.btn-primary:hover{color:#fff;background-color:#0069d9;border-color:#0062cc}.btn-primary.focus,.btn-primary:focus{box-shadow:0 0 0 .2rem rgba(38,143,255,.5)}.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#007bff;border-color:#007bff}
